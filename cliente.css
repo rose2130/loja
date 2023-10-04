@@ -1,0 +1,134 @@
+body {
+    font-family: 'Poppins, Helvetica, sans-serif';
+    background-image: url(img/bem\ vindo.jpg);
+    background-size: cover; 
+    margin: 0;
+    padding: 0;
+   
+}
+
+h1 {
+    color:#111111;
+    font-size:x-large ;
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+}
+
+h2 {
+    color:#111111;
+    font-size:x-large ;
+    font-size: 20px;
+    font-style: normal;
+}
+
+h3 {
+    color: #111;
+    font-size:x-large ;
+    font-size: 15px;
+    font-style: normal;
+}
+
+form {
+    display: flex;
+    
+  }
+
+.input-hover:hover {
+    border-color: #111;
+    background:red;
+    display: inline-flex;
+    color:#fff;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a {
+    
+    display: block;
+    text-align: center;
+    color: #333;
+    text-decoration: none;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+
+  a:hover {
+    opacity: 0.7;
+}
+
+  
+  /* Responsivo */
+
+  @media (max-width: 1000px) {
+    nav li {
+      display: block;
+      margin-right: 0;
+      margin-bottom: 25px;
+    }
+  
+  
+  }
+
+
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+   body, html{
+   position: relative;
+   overflow-x: hidden;   
+   }
+   .footer-container{
+   position: fixed;
+   bottom: 0;
+   background-color: #424045;
+   width: 100%;
+   text-align: left;
+   padding: 10px;
+   }
+   .footer-container .footer-content-1,
+   .footer-container .footer-content-2,
+   .footer-container .footer-content-3{
+   display: inline-block;
+   vertical-align: top;
+   }
+   /* Footer left */
+   .footer-container .footer-content-1{
+   width: 100%;
+   }
+
+   .footer-container .footer-p a{
+    display: inline-block;
+    text-decoration: none;
+    color:  #fff;
+    margin: 0px 8px 0px 0px;
+     padding-left: 3px;
+    border-left: 2px solid #fff;
+    }
+    .footer-container .footer-p a:hover{
+    text-shadow: 0 0 35px red,
+    0 0 35px red;
+    }
+    .footer-container .copyright{
+      width: 100%;
+      color: #fff;
+      }
+    .footer-container .copyright p{
+      text-align: center;
+      color:  #fff;
+      padding: 5px;
+      font-size: 12px;
+     }
+
+
+
+
+   

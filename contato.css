@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(img/bolo-de-chocolate-molhadinho-1920x1080.webp);
+    margin: 0;
+    padding: 0;
+  }
+  
+  main {
+    max-width: 50rem;
+    margin: 50px auto;
+    padding:35px;
+    background-color: #ffffff89;
+    border-radius: 25px;
+    box-shadow: 0 2px 4px rgba(248, 243, 243, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  form {
+    display: grid;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom:1px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  input, textarea {
+    padding: 10px;
+    margin-bottom: 25px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button {
+    background-color: red;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  button:hover {
+    opacity: 0.7;
+  }
+  
+  a {
+    display: block;
+    text-align: center;
+    color: #333;
+    text-decoration: none;
+    margin-top: 15px;
+    transition: 0.3s;
+  }
+
+  a:hover {
+    opacity: 0.7;
+}
+
+  /* Responsivo */
+
+  @media (max-width: 1000px) {
+    nav li {
+      display: block;
+      margin-right: 0;
+      margin-bottom: 25px;
+    }
+  
+  }
+
+
+
+
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+   body, html{
+   position: relative;
+   overflow-x: hidden;   
+   }
+   .footer-container{
+   position: fixed;
+   bottom: 0;
+   background-color: #424045;
+   width: 100%;
+   text-align: left;
+   padding: 10px;
+   }
+   .footer-container .footer-content-1,
+   .footer-container .footer-content-2,
+   .footer-container .footer-content-3{
+   display: inline-block;
+   vertical-align: top;
+   }
+   /* Footer left */
+   .footer-container .footer-content-1{
+   width: 100%;
+   }
+
+   .footer-container .footer-p a{
+    display: inline-block;
+    text-decoration: none;
+    color:  #fff;
+    margin: 0px 8px 0px 0px;
+    padding-left: 3px;
+    border-left: 2px solid #fff;
+    }
+    .footer-container .footer-p a:hover{
+    text-shadow: 0 0 35px red,
+    0 0 35px red;
+    }
+    .footer-container .copyright{
+      width: 100%;
+      color: #fff;
+      }
+    .footer-container .copyright p{
+      text-align: center;
+      color:  #fff;
+      padding: 5px;
+      font-size: 12px;
+     }
+
+
+
+
+   

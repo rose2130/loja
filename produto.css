@@ -1,0 +1,147 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #090909;
+}
+
+.container {
+    padding: 25px 9%;
+    text-align: center;
+}
+
+.container .heading {
+    font-size: 20px;
+    padding-bottom: 25px;
+    color: #f1eded;
+}
+
+.container #search-box{
+    width: 600px;
+    border: 3px solid #ad1515;
+    padding: 12px 15px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.container .container-img {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 30px;
+}
+
+@keyframes fadeIn{
+  0%{
+    transform: scale(0.7)translateY(-10px);
+    opacity: 0;
+
+}
+
+
+}
+.container .container-img .img {
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid hwb(0 2% 27%);
+    width: 310px;
+    border-radius: 5px;
+    animation: fadeIn 0 .2s linear;
+    cursor: pointer;
+
+}
+
+.container .container-img .img img   {
+    height: 240px;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    
+}
+
+ 
+
+.container .container-img .img img:hover{
+  transform: scale(1.2);
+   
+}
+
+.container .container-img .img h3{
+    font-size: 20px;
+    color: #000;
+}
+
+.container-img button{
+    padding: 5px 30px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.container ul li a{
+    color: red;
+}
+
+@media (max-width: 768px) {
+
+ .container .container-img{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding: 25px 20px;
+    }
+
+    .container .container-img .img {
+        width: 100%;
+    }
+
+    .container #search-box {
+        width: 90%;
+    }
+}
+
+@media(max-width:450px){
+
+    .container .container-img{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding: 25px 20px;
+    
+    }
+
+    
+
+    .container .container-img .img{
+        width: 100%;
+        
+    }
+
+  
+ 
+
+
+    
+
+
+    
+  
+
+
+
+
+
+
+
+
+
+

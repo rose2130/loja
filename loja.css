@@ -1,0 +1,104 @@
+/* Google Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;700&family=Poppins:wght@300;400;500;600&display=swap');
+
+
+/* General CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Custom CSS */
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: url(img/Rose.png);
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.container .contents {
+  width: 60%;
+  padding-left: 140px;
+}
+
+.contents .head-title h2 {
+  font-size: 60px;
+  opacity: 0.7;
+}
+
+.contents .head-title h3 {
+  font-size: 20px;
+  margin-top: -18px;
+}
+
+.contents .btn {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 500;
+  text-align: center;
+  color: #fff;
+  background-color: red;
+  border: 2px solid #fff;
+  border-radius: 6px;
+  padding: 8px 10px;
+  margin-top: 10px;
+  transition: all 0.5s;
+}
+
+.contents .btn:hover {
+  color: black;
+  background-color: #fff;
+  border: 2px solid black;
+}
+
+/* Responsive Design*/
+@media (max-width: 850px) {
+  .container .contents {
+    width: 70%;
+    padding-left: 80px;
+  }
+
+  .contents .head-title h2 {
+    font-size: 60px;
+  }
+
+  .contents .head-title h3 {
+    font-size: 44px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.2),
+        #ffbd592b,
+        #f48374,
+        #ed0909
+      ),
+      url(img/Ro.png);
+    background-size: cover;
+    background-position: bottom;
+  }
+
+  .container .contents {
+    width: 100%;
+    color: #fff;
+    padding: 210px 10px 0;
+  }
+
+  .contents .head-title h2 {
+    font-size: 45px;
+  }
+
+  .contents .head-title h3 {
+    font-size: 30px;
+  }
